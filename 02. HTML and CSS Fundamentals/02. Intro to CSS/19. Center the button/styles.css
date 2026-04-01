@@ -1,5 +1,6 @@
 .main {
-    margin-top: 100px;    
+    margin-top: 100px;
+    text-align: center;    
 }
 
 .logo-img {
@@ -29,3 +30,7 @@ Challenge:
 Center the button and add some space above it
 */
 
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+}
