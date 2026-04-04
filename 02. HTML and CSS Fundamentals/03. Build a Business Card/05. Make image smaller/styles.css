@@ -8,3 +8,7 @@ Challenge:
 Set the width of the image to 150px.
 PS: Use a class to select the img element.
 */
+
+.profile-img {
+    width: 150px;
+}
