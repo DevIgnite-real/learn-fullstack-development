@@ -11,9 +11,11 @@ body {
     Challenge:
     Give the card a width of 400px wide and center it.
     */
+    width: 400px;
+    margin: 0 auto;
     padding: 20px;
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 .border-blue {
