@@ -14,8 +14,7 @@ body {
     Replace the two margin properties with a 
     single margin shorthand.
     */
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     padding: 20px;
     display: flex;
     justify-content: space-around;
