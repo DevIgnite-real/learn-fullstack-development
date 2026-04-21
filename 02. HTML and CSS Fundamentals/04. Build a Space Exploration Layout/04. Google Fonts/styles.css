@@ -6,6 +6,7 @@ body {
     /* 
     Set the font family here. 
     */
+    font-family: "Orbitron", sans-serif;
 }
 
 .btn {
@@ -16,4 +17,5 @@ body {
     You'll need to do something here as well!
     Can you spot what it is?
     */
+    font-family: inherit;
 }
