@@ -3,6 +3,15 @@
     font-family: Corleone;
 }
 
+@font-face {
+    font-family: Nautilus;
+    src: url(Nautilus.otf);
+}
+
 h1 {
     font-family: Corleone;
+}
+
+h2 {
+    font-family: Nautilus;
 }
