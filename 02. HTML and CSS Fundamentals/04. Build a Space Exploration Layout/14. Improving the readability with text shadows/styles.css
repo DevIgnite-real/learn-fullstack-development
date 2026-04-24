@@ -22,6 +22,10 @@ the text-shadow technique you just learned. Set
 the blur to 4px and the color to black.
 */
 
+#title {
+    text-shadow: 0px 0px 4px black;
+}
+
 .btn {
     padding: 6px 12px;
     background: white;
