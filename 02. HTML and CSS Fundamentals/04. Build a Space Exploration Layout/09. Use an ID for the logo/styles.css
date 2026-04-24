@@ -12,6 +12,10 @@ Select the logo using its "id", and reduce its
 width to a suitable level.
 */
 
+#logo {
+    width: 100px;
+}
+
 .btn {
     padding: 6px 12px;
     background: white;
