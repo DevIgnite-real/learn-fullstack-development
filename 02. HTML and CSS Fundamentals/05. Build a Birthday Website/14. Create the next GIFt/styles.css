@@ -74,3 +74,17 @@ background-image(s) on :hover. Each GIFt will need a
 unique id that controls which background image that 
 should be shown when hovering over the element.
 */
+
+#second-gift-img {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#second-gift-img:hover {
+    background-image: url("images/hot.gif");
+}
