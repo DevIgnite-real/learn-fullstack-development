@@ -5,3 +5,8 @@
 // Log fullName to the console
 
 
+let firstName = "DevIgnite"
+let lastName = "Myth"
+
+let fullName = firstName + " " + lastName
+console.log(fullName)
