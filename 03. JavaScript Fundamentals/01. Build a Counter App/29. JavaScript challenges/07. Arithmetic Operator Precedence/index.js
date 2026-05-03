@@ -14,6 +14,9 @@ const hotelCostPerNight = 60
 const hotelDiscountPerNight = 6
 const foodCost = 50
 
-const totalCost = foodCost + tripDistanceKM * fuelPricePerKM + hotelCostPerNight - hotelDiscountPerNight * tripLengthDays
+const totalCost = (fuelPricePerKM * tripDistanceKM) + ((hotelCostPerNight - hotelDiscountPerNight) * tripLengthDays) + foodCost
 
 console.log(totalCost)
+
+// const totalCost = foodCost + tripDistanceKM * fuelPricePerKM + hotelCostPerNight - hotelDiscountPerNight * tripLengthDays
+
