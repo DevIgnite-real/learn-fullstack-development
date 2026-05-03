@@ -1,14 +1,54 @@
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
+        <!--SOLO PROJECT left at well here at time 7:03:08-->
+        <!--Now just add the functionality of javascript-->
         <div class="container">
-            <div>
-                <h3>HOME</h3>
+            <div id="content-wrapper">
+                <div class="team-cn">
+                    <h3>HOME</h3>
+                    <div class="score-background">
+                        <p id="home-score" class="score-points">0</p>
+                    </div>
+                    <div class="add-points-cn">
+                        <button id="one-point-btn" class="points-btn" onclick="addOnePointHome()">
+                            + 1
+                        </button>
+                        <button id="two-point-btn" class="points-btn" onclick="addTwoPointsHome()">
+                            + 2
+                        </button>
+                        <button id="three-point-btn" class="points-btn" onclick="addThreePointsHome()">
+                            + 3
+                        </button>
+                    </div>
+                </div>
+                <div class="team-cn">
+                    <h3>GUEST</h3>
+                    <div class="score-background">
+                        <p id="guest-score" class="score-points">0</p>
+                    </div>
+                    <div class="add-points-cn">
+                        <button id="one-point-btn" class="points-btn" onclick="addOnePointGuest()">
+                            + 1
+                        </button>
+                        <button id="two-point-btn" class="points-btn" onclick="addTwoPointsGuest()">
+                            + 2
+                        </button>
+                        <button id="three-point-btn" class="points-btn" onclick="addThreePointsGuest()">
+                            + 3
+                        </button>
+                    </div>
+                </div>
             </div>
-            <div>
-                <h3>GUEST</h3>
+            
+            <div id="new-game-btn-cn">
+                <button id="new-game-btn" onclick="resetAllPoints()">New Game</button>
             </div>
         </div>
         <script src="index.js"></script>
