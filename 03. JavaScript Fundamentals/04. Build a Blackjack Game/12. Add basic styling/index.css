@@ -2,13 +2,21 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    background-image: url("images/table.png");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-weight: bold;
 }
 
 h1 {
     color: goldenrod;
 }
 
+p {
+    font-size: 20px;
+}
+
 #message-el {
-    
+    font-style: italic;
 }
