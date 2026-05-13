@@ -1,6 +1,6 @@
 let cards = [7, 4]
 cards.push(6)
-//console.log(cards)
+// console.log(cards)
 
 // Push the newMessage to the messages array, and then log out the array
 
@@ -12,6 +12,19 @@ let messages = [
 
 let newMessage = "Same here!"
 
+messages.push(newMessage)
+
+console.log(messages)
+
+// How can you remove the last time in an array? Try to google it? 
+messages.pop()
+console.log(messages)
 
 
+// function getRandomNumber () {
+//     let randomNum = Math.floor(Math.random() * 101)
+//     console.log(randomNum)
+// }
+
+// getRandomNumber()
 
