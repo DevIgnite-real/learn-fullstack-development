@@ -7,7 +7,7 @@ console.log(randomNumber)
 
 In which range will our randomNumber be now?
 
-From:
-To:
+From: 0.000
+To: 5.999
 
 */
