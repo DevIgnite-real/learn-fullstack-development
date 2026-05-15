@@ -9,6 +9,6 @@ console.log(flooredNumber)
 
 What does Math.floor() do to positive numbers?
 
-Your answer: 
+Your answer: I believe it sort of rounds the number but not up or down it just removes the decimals.
 
 */
