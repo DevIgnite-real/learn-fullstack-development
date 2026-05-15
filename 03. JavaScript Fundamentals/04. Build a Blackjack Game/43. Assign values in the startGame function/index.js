@@ -7,6 +7,7 @@ let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 
+
 function getRandomCard() {
     let randomNumer = Math.floor( Math.random()*13 ) + 1
     if (randomNumer > 10) {
@@ -20,6 +21,11 @@ function getRandomCard() {
 
 function startGame() {
     isAlive = true
+    let firstCard = getRandomCard()
+    let secondCard = getRandomCard()
+    cards.push(firstCard)
+    cards.push(secondCard)
+    sum = firstCard + secondCard
     // Generate two random numbes
     // Re-assign the cards and sum variables so that the game can start
     renderGame()
