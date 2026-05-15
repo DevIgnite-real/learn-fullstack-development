@@ -1,7 +1,10 @@
 // 2. Create the player object. Give it two keys, name and chips, and set their values
 let player = {
     name: "Per",
-    chips: 200
+    chips: 200,
+    sayHello: function() {
+        console.log("Heisann")
+    }
 }
 
 let cards = []
