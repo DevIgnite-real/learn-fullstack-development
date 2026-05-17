@@ -18,8 +18,21 @@ input {
     padding-left: 10px;
     padding-right: 10px;
     box-sizing: border-box;
+    margin-bottom: 4px;
+    line-height: 34px;
+    font-size: 14px;
+    border: 2px solid #5f9341;
+    border-radius: 2px;
+    /* background-color: rgba(173, 216, 230, 0.274); */
+    outline-color: #5f9341;
 }
 
 button {
-    
+    line-height: 36px;
+    padding: 0px 14px;
+    color: white;
+    font-weight: bold;
+    background-color: #5f9341;
+    border: none;
+    cursor: pointer;
 }
