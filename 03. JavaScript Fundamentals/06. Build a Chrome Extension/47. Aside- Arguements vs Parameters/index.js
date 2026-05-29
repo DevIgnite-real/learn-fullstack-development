@@ -1,7 +1,7 @@
-// What are greeting and name? 
-// What are "Howdy" and "James"?
-// What are num1 and num2?
-// What are 3 and 4?
+// What are greeting and name? They are parameters because they are inside the function
+// What are "Howdy" and "James"? They are arguments because they are outside the function
+// What are num1 and num2? They are parameters because they are inside the function
+// What are 3 and 4? They are arguments because they are outside the function
 
 
 //.                parameters
