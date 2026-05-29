@@ -5,6 +5,7 @@ const ulEl = document.getElementById("ul-el")
 const deleteBtn = document.getElementById("delete-btn")
 const leadsFromLocalStorage = JSON.parse( localStorage.getItem("myLeads") )
 // 1. Grab the SAVE TAB button and store it in a tabBtn variable
+const tabBtn = document.getElementById("tab-btn")
 
 if (leadsFromLocalStorage) {
     myLeads = leadsFromLocalStorage
@@ -16,6 +17,10 @@ const tabs = [
 ]
 
 // 2. Listen for clicks on tabBtn. Log Per's LinkedIn URL to the console
+
+tabBtn.addEventListener("click", function() {
+    console.log(tabs[0].url)
+})
 
 
 function render(leads) {
