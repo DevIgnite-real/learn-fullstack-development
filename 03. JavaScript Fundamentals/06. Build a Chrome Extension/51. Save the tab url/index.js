@@ -6,7 +6,7 @@ const deleteBtn = document.getElementById("delete-btn")
 const leadsFromLocalStorage = JSON.parse( localStorage.getItem("myLeads") )
 const tabBtn = document.getElementById("tab-btn")
 
-if (leadsFromLocalStorage) {
+if (leadsFromLocalStorage)  {
     myLeads = leadsFromLocalStorage
     render(myLeads)
 }
